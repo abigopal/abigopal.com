@@ -5,9 +5,9 @@
 
 var express = require('express')
   , routes = require('./routes')
-  , user = require('./routes/user')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , config = require('./config');
 
 http.globalAgent.maxSockets = 30;
 var app = express();
@@ -31,6 +31,6 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 
-http.createServer(app).listen(3000, '198.199.85.63', function(){
+http.createServer(app).listen(3000, config.ip, function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
