@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  background-color: #fafafa;
+}
+h1 {
+  text-align: center;
+  font: 128px 'Raleway', 'Quicksand', "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #333;
+  height: 0.5em;
+}
+a {
+  color: #00b7ff;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 42em;
+  margin-left: -21.5em;
+  margin-top: -16em;
+}
+.social {
+  font-size: 25px;
+  position: float;
+  text-align: center;
+}
+.twitter,
+.github,
+.blog {
+  padding-right: 2em;
+  display: inline-block;
+}
+.blog a:hover {
+  color: #ff8500;
+}
+.github a:hover {
+  color: #f00;
+}
+.twitter a:hover {
+  color: #4099ff;
+}
+.social a {
+  color: #333;
+  text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 100px;
+  }
+}
