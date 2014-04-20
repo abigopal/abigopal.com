@@ -1,38 +1,57 @@
 body
-  padding: 50px
   background-color: #fafafa
-
-h1
-  text-align: center
-  font: 128px 'Raleway', 'Quicksand', "Lucida Grande", Helvetica, Arial, sans-serif
-  color: #333
-  height: 0.5em
 
 a
   color: #00B7FF
 
-.logo
-  position: absolute
-  left: 50%
-  top: 50%
-  width: 42em
-  margin-left: -21.5em
-  margin-top: -16em
+#container
+  width: 40em
+  margin: 3em auto
+
+#container h1
+  text-align: center
+  font: 90px 'Raleway', 'Quicksand', "Lucida Grande", Helvetica, Arial, sans-serif
+  font-weight: 200
+  color: #333
+  letter-spacing: 0.20em
+  //height: 0.5em
+
+#container p
+  text-align: left
+  font: 25px 'Raleway'
+  font-weight: 100
+  color: #333
+  //padding-left: 0.2em
+  margin-bottom: 0em
+  margin-top: 0em 
+
+#container p + p
+  text-indent: 1.5em
+  margin-top: 0
+
+img
+ float: right
+ padding: 10px 10px 0px 10px 
 
 .social
-  font-size: 25px
+  padding-top: 0em
+  //font-size: 15px
   position: float
   text-align: center
 
-.twitter
-  padding-right: 2em
+.social-icon
+  padding-right: 5em
   display: inline-block
 
+.twitter
+  @extend .social-icon
+  padding-left: 3em      
+
 .github
-  @extend .twitter
+  @extend .social-icon
 
 .blog
-  @extend .twitter
+  @extend .social-icon
 
 .blog a:hover
   color: #FF8500
@@ -47,4 +66,4 @@ a
 
 @media screen and (max-width: 700px)
   h1
-    font-size: 100px
+    font-size: 80px
