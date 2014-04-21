@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+var debug = require('debug')('abigopal.com');
+var app = require('../app');
+var config = require('../config');
+
+app.set('port', process.env.PORT || config.port);
+app.set('ip', process.env.IP || config.ip);
+
+var server = app.listen(app.get('port'), app.get('ip'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
