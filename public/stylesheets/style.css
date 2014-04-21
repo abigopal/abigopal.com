@@ -11,16 +11,16 @@ a {
 #container h1 {
   text-align: center;
   font: 85px 'Raleway', Helvetica, Arial, sans-serif;
-  font-weight: 200;
-  color: #333;
-  letter-spacing: 0.5em;
+  font-weight: 400;
+  color: #595959;
+  letter-spacing: 0.2em;
   margin: 0 auto;
 }
 #container p {
   text-align: left;
   font: 20px 'Raleway';
-  font-weight: 100;
-  color: #333;
+  font-weight: 300;
+  color: #595959;
   margin-bottom: 1.2em;
 }
 img {
@@ -53,6 +53,6 @@ img {
   color: #4099ff;
 }
 .social a {
-  color: #333;
+  color: #595959;
   text-decoration: none;
 }
