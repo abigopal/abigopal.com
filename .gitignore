@@ -3,3 +3,4 @@ nohup.out
 public/images/
 *.sw*
 config.js
+npm-debug.log
