@@ -38,13 +38,14 @@ img {
 }
 .social-icon,
 .twitter,
+.updates,
 .github,
 .blog {
   padding-right: 5em;
   display: inline-block;
 }
 .twitter {
-  padding-left: 3em;
+  padding-left: 2em;
 }
 .blog a:hover {
   color: #ff8500;
@@ -54,6 +55,9 @@ img {
 }
 .twitter a:hover {
   color: #4099ff;
+}
+.updates a:hover {
+  color: #00a693;
 }
 .social a {
   color: #545454;
