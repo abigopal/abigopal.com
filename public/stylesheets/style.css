@@ -10,15 +10,15 @@ a {
 }
 #container h1 {
   text-align: center;
-  font: 85px 'Raleway', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font: 85px 'Open Sans';
+  font-weight: 300;
   color: #545454;
   letter-spacing: 0.2em;
   margin: 0 auto;
 }
 #container p {
   text-align: left;
-  font: 20px 'Raleway';
+  font: 20px 'Lato';
   font-weight: 300;
   color: #545454;
   margin-bottom: 1.2em;
